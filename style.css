@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FBEDDA;
+}
+
+header .logo {
+    border: 2px solid red;
+    margin-left: 150px;
+   margin-top: 50px;
+}
+
+header ul {
+    display: inline-block;
+    margin-top: 51px;
+    margin-left: 647px;
+    margin-right: 107px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 81px;
+    font-family: "Noto serif";
+    font-size: 18px;
+    line-height: 29px;
+    color: #000;
+    
+}
+
+header ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+
+header .login {
+    display: inline-block;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+    padding: 10.41px 25.18px;
+    background-color: #13A6BA;
+    border-radius: 8px;
+   font-size: 20px;
+}
+
+
+header .hero {
+    text-align: center;
+    margin-top: 224px;
+    width: 988px;
+    margin-left: 466px;
+}
+
+header .hero h1 {
+    font-family: "Noto serif";
+    font-size: 80px;
+    line-height: 105px;
+    margin-bottom: 31px;
+    font-weight: 800px;
+}
+
+header .hero p {
+    font-family: "Noto serif";
+    font-size: 20px;
+    line-height: 34px;
+    color: #677071;
+}
+
+header .home-search {
+  
+    width: 1273px;
+    margin-left: 350px;
+    height: 272px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 7%);
+}
+
+header .home-search .group-form, 
+.button {
+    display: inline-block;
+   
+
+}
+
+header .home-search .deal {
+    margin-bottom: -20px;
+    width: 1273.4808349609375px;
+    border-bottom: 1px solid #E0E2E3;
+  
+}
+
+
+header .deal ul {
+   display: inline-block;
+   margin-left: 54px;
+   margin-right: 86px;
+   margin-top: 44.93px;
+   
+}
+
+header .deal ul:last-child {
+    margin-left: 0;
+}
+
+header .deal ul li {
+    width: 75px;
+}
+
+header .deal li a {
+    font-family: "Noto serif";
+    font-size: 26px;
+    color: #CCCFD0;
+   line-height: 36px;
+   padding-bottom: 14px;
+   font-weight: 400;
+  
+}
+
+header .deal li a:focus {
+    color: #000;
+    border-bottom: 3px solid #021112;
+    font-weight: 600
+
+}
+
+header .search-form {
+    margin-top: 33px;
+    display: inline-block;
+}
+
+header .search-form img {
+    margin-right: 10px;
+    
+}
+
+header .search-form .group-form {
+  margin-top: 33px;
+  padding-left: 47px;
+  padding-right: 88px;
+  border-right: 1px solid #CFCCCC;
+}
+
+header .search-form .group-form:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+header .search-form .group-form label {
+    color: #677071;
+    font-family: "Noto serif";
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 6.11px;
+}
+
+header .search-form .group-form span {
+    display: block;
+    color: #021112;
+    font-family: "Noto serif";
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+header .search-form {
+    position: relative;
+}
+
+header .deal li a:focus {
+    color: #000;
+    border-bottom: 5px solid #021112;
+    font-weight: 600
+
+}
+
+header .search-form .button {
+    border-radius: 20px;
+    padding: 26px 55px;
+    background-color: #13A6BA;  
+    display: inline-block; 
+    margin-top: 27px; 
+    position: absolute;
+    top: -5px;
+    left: 1012px;
+}
+
+
+
+header .search-form .button a {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 29px;
+}
