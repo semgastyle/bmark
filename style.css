@@ -23,6 +23,7 @@ body {
     max-width: 1620px;
     margin: 0 auto;
     border: 2px solid red;
+    position: relative;
 }
 
 header {
@@ -396,36 +397,48 @@ header .search-form .button a {
     height: 573.55px;
     border-radius: 50%;
     position: absolute;
-    left: 300px;
+    left: -300px;
     top: 0px;
     z-index: -1;
 }
 
-.advantages .img-house {
-    float: left;
-    margin-top: 250px;
+.property {
+    display: inline-block;
 }
 
-.advantages .property {
-    margin-top: 346px;
-    margin-left: 900px;
-    font-size: 58px;
-    line-height: 91px;
-    font-weight: 700;
+.advantages .img-house {
+    display: inline-block;
+    padding-top: 259px;
 }
 
 .advantages .protection {
     border-radius: 10px;
     width: 600px;
     display: inline-block;
-    margin-top: 96px;
-    margin-left: 100px;
+    font-size: 58px;
+    font-weight: 700;
+    vertical-align: 100px;
+    margin-left: 130px;
+}
+
+.advantages .protection h2 {
+    font-size: 58px;
+    line-height: 91px;
+    font-weight: 700;
+    margin-bottom: 96px;
+}
+
+.advantages .protection .test1 {
+    margin-bottom: 60px;
+}
+
+.advantages .protection .test1:last-child {
+    margin-bottom: 0;
 }
 
 .advantages .protection-text {
     display: inline-block;
     vertical-align: top;
-    margin-top: 8px;
     margin-left: 32px;
 } 
 .advantages .protection-text label {
@@ -445,13 +458,6 @@ header .search-form .button a {
     background-color: #b3c41d2d;
 }
 
-.advantages .test1 {
-    margin-top: 64px;
-}
-
-.advantages .test1:first-child {
-    margin-top: 0;
-}
 
 .advantages .discover-place {
     width: 391px;
@@ -459,8 +465,8 @@ header .search-form .button a {
     border-radius: 20px;
     position: absolute;
     background-color: white;
-    top: 1000px;
-    left: 500px;
+    top: 900px;
+    left: -100px;
     box-shadow: 0 0 55px rgba(0, 0, 0, 20%);
 }
 
@@ -540,4 +546,311 @@ header .search-form .button a {
     border-radius: 7px;
     width: 58px;
     height: 58px;
+}
+
+.housing-market-data .container {
+    margin-top: 0px;
+    height: 1253px;
+}
+
+.housing-market-data .stats-container {
+   padding-top: 502px;
+   padding-left: ;
+}
+
+.housing-market-data .stats h2 {
+    font-size: var(--font-title-text);
+    font-weight: 700;
+    line-height: var(--line-height-title-text);
+    width: 600px;
+    margin-bottom: 41px;
+    display: inline-block;
+}
+
+.housing-market-data .stats p {
+    font-size: 20px;
+    line-height: 38px;
+    color: #677071;
+    width: 500px;
+}
+
+.housing-market-data table {
+    width: 750px;
+    display: inline-block;
+}
+
+
+.housing-market-data table td {
+    border-right: 1px solid #E0E2E3;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.housing-market-data table td:first-child {
+    padding-left: 0;
+}
+
+.housing-market-data table td:last-child {
+    border-right: none;
+}
+
+.housing-market-data table tr:first-child {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.housing-market-data table tr:last-child {
+    font-size: var(--font-small-text);
+    color: var(--color-small-text);
+}
+
+
+.housing-market-data .feature-item {
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px #00000014;
+    width: 583px;
+    height: 720px;
+    position: absolute;
+    top: 314px;
+    left: 930px;
+}
+
+.housing-market-data .feature-item p {
+    position: absolute;
+    transform: translateX(41px);
+    top: 548px;
+    color: var(--color-small-text);
+    line-height: 182%;
+    font-size: 12px;
+    font-weight: 400px;
+    width: 501px;
+
+}
+
+.housing-market-data .feature-item .button input {
+    display: block;
+    transform: translateX(0px);
+    border-radius: 50px;
+    background-color: #CCCFD0;
+}
+
+.housing-market-data .feature-item .house-img  {
+    background-image: url(img/Mask\ Group\ \(6\).png);
+    width: 501px;
+    height: 319px;
+    position: absolute;
+    top: 103px;
+    left: 41px;
+    border-radius: 20px;
+}
+
+.housing-market-data .feature-item .button {
+    position: relative;
+    top: 40px;
+    left: 514px;
+}
+
+.housing-market-data .feature-item .icons-avatar {
+    position: absolute;
+    top: 461px;
+    left: 41px;
+}
+
+.housing-market-data .feature-item .icons-avatar label {
+    position: absolute;
+    top: 20px;
+    left: 175px;
+    width: 154px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.housing-market-data .feature-item .icons-avatar .avatar {
+    border-radius: 50%;
+    width: 52.78px;
+    height: 52.78px;
+    display: inline-block;
+}
+
+.housing-market-data .feature-item .icons-avatar .avatar1 {
+    background-image: url(img/2594529692d6754ca6af172384e27460243daab5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.housing-market-data .feature-item .icons-avatar .avatar2 {
+    background-image: url(img/fcc76e0d4c85ef9875067ccbcf67f491d9a225b3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 30px;
+}
+
+.housing-market-data .feature-item .icons-avatar .avatar3 {
+    background-image: url(img/5db6f89bcf5c737b330207d8083a7bbd5896c01d.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60px;
+}
+
+.housing-market-data .feature-item .icons-avatar .avatar4 {
+    background-image: url(img/29a0183e4a6e00651d4af1c74351560620cfba47.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 90px;
+}
+
+.housing-market-data .feature-item .comments-share {
+    position: absolute;
+    top: 650px;
+    left: 350px;
+}
+
+.housing-market-data .feature-item .comments-share .comments {
+    padding-right: 150px;
+}
+
+.housing-market-data .feature-item .comments-share .share,
+.housing-market-data .feature-item .comments-share .comments {
+    color: #677071;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.housing-market-data .feature-item .comments-share img {
+    position: absolute;
+    top: -10px;
+    left: -40px;
+}
+
+.housing-market-data .feature-item .comments-share .share img {
+    position: absolute;
+    left: 139px;
+}
+
+.housing-market-data .feature-item .marker {
+    width: 52.24px;
+    height: 52.24px;
+    background-image: url(img/Save.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 396.64px;
+    left: 464px;
+    box-shadow: 0 0 10px #00000014;
+}
+
+.housing-market-data .pages {
+    display: inline-block;
+    width: 307px;
+    height: 307px;
+    box-shadow: 15px 15px 55px rgba(0, 0, 0, 30%);
+    position: absolute;
+    top: 922px;
+    left: 770px;
+    background-color: #FFFFFF;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+
+
+.housing-market-data .pages .icon {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-image: url(img/01-01\ 1.png);
+    background-color: #F3C98B;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 119px;
+    top: 33.49px;
+}
+
+.housing-market-data .pages .icon-page {
+    margin-top: 0px;
+    width: 139px;
+    position: relative;
+    top: 50px;
+    left: 84px;
+}
+
+.housing-market-data .pages .icon-page h3 {
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: 0;
+}
+
+.housing-market-data .pages .icon-page label{
+    font-size: 10px;
+    color: var(--color-small-text);
+    font-weight: 400px;
+    margin-left: 43px;
+    margin-bottom: 130px;
+    position: absolute;
+    top: 30px;
+}
+
+.housing-market-data .pages .statistics  {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.housing-market-data .pages .statistics li  {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    color: var(--color-small-text);
+}
+
+.housing-market-data .pages .statistics li:first-child {
+    margin-right: 100px;
+}
+
+.housing-market-data .pages .actions {
+    display: inline-block;
+}
+
+.housing-market-data .pages .actions .follow, 
+.messages {
+    display: inline-block;
+    padding: 14px;
+    margin-right: 23px;
+    margin-left: 17px;
+    border-radius: 10px;
+    border: 1px solid #E0E2E3;
+    color: var(--color-small-text);
+    transition: 0.3s;
+}
+
+.housing-market-data .pages .actions .follow:last-child, 
+.messages:last-child{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.housing-market-data .pages .actions .follow:hover, 
+.messages:hover {
+    background-color: #772D8B;
+    color: #FFFFFF;
+}
+
+.housing-market-data .google {
+    width: 169px;
+    height: 169px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 30px #00000014;
+    background-color: #FFFFFF;
+    background-image: url(img/Group\ 38.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 320px;
+    left: 1401px;
+    z-index: 1;
 }
